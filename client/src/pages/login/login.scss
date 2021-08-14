@@ -37,6 +37,11 @@
             color: white;
             padding: 10px;
             cursor: pointer;
+
+            &:disabled {
+                cursor: not-allowed;
+                background-color: rgb(252, 173, 173);
+            }
         }
     }
 
